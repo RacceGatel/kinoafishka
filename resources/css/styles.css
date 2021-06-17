@@ -1,0 +1,19 @@
+@import url('/resources/css/animate.css');
+@import url('/resources/css/header.css');
+@import url('/resources/css/main.css');
+@import url('/resources/css/films.css');
+@import url('/resources/css/film.css');
+@import url('/resources/css/search.css');
+@import url('/resources/css/admin.css');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+    background:url(../images/back_main_content.jpg) center;
+    background-attachment: fixed;
+    background-size: 10%;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    width:100%;
+    background-color: white;
+}

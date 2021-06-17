@@ -1,0 +1,54 @@
+.nav_header form input{
+    border:none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: black;
+    color:black;
+    border: 1px solid #b00000;
+    height: 40px;
+    font-size: 17px;
+}
+
+.nav_header form input:focus{
+    border: 1px solid #b00000;
+}
+
+.btn:focus, .btn:active, input:focus, input:active {
+    box-shadow: none !important;
+    border: none;
+}
+
+.nav_header form button{
+    border:none;
+    border-radius: 0px;
+    border: 1px solid #b00000;
+    height: 40px;
+    color:white;
+    font-size: 17px;
+}
+
+.nav_header form button:hover{
+    background-color: #b00000;
+    border: 1px solid #b00000;
+}
+
+.nav_header form .dropdown{
+    margin:0px;
+    padding:0px;
+    height: 40px;
+}
+
+.nav_header form .dropdown ul{
+    font-size: 17px;
+}
+
+.nav_header form .dropdown button:hover{
+    background-color: #b00000;
+    border: 1px solid #b00000;
+}
+
+.nav_header form .dropdown button{
+    background-color: black;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #b00000;
+    margin-bottom: 100px;
+}

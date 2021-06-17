@@ -1,0 +1,124 @@
+body {
+    font-family: 'Forum', cursive;
+    cursor:default;
+}
+
+header{
+    background-color: #ffda58;
+}
+
+.nav_header {
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+}
+
+.nav_head div{
+    padding:0 60px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.nav_head li{
+    display: block;
+}
+
+.nav_head li a{
+    color:#b00000;
+    border:none;
+    text-decoration: none;
+}
+
+.nav_head li span:hover{
+    color:white;
+}
+
+.nav_head li a img {
+    width:35px;
+}
+
+section {
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/back_main.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sect a{
+    text-decoration: none;
+}
+
+.sect_head h1{
+    font-size: 65px;
+    border-bottom: 3px solid black;
+    margin: 50px 0px;
+}
+
+section .sect_recipe{
+    height: 350px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition-duration: 0.5s;
+    background-color: black;
+    padding:15px 15px 15px 30px;
+    color:#b00000;
+}
+
+.sect_recipe .recipe_text{
+    background-color: #000000;
+    height: 320px;
+    border:10px solid #b00000;
+    text-align: left;
+    
+}
+
+.sect_recipe .recipe_text .about_film{
+    height: 140px;
+}
+
+section .sect_recipe .recipe_img div{
+    background-size: cover;
+    width:100%;
+    background-color: #b00000;
+    height: 100%;
+    padding: 10px;
+}
+
+.sect_recipe a{
+    text-decoration: none;
+}
+
+.sect_recipe .recipe_img div img{
+    width:100%;
+    height: 100%;
+}
+
+section .sect_recipe h1{
+    padding:10px 0px 5px 0px;
+    font-size: 30px;
+    color: white;
+}
+
+.sect .row .sect_recipe:hover{
+    transition-duration: 0.5s;
+    background-color: #6196ff;
+}
+
+.sect_recipe .rating_film div{
+    display: block;
+    color: white;
+}
+
+.sect_recipe .rating_film img
+{
+    width: 5%;
+    margin:0px 3px;
+}
+
+.sect_recipe .age_film{
+    font-size: 20px;
+}
+

@@ -1,0 +1,281 @@
+header {
+    justify-content: center;
+    display: block;
+    width: 100%;
+    background-color: black;
+}
+
+header > ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+header li > *{
+    font-size: 25px;
+    color: white;
+}
+
+
+header li {
+    display: flex;
+    justify-content: left;
+    margin: 0 1vw;
+
+}
+
+header li > a {
+    padding: 20px 25px 10px 25px ;
+    margin: 0;
+    height: 100%;
+    width: auto;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header li > a:hover{
+    color: black;
+    background-color:white;
+    transition: 0.5s;
+}
+
+header li > form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header li > form > *{
+    padding: .5rem;
+    margin: 10px 0;
+}
+
+header li #input_search {
+    min-width: 30vw;
+    width: 100%;
+    max-width: 50vw;
+}
+
+header li .btn-auth {
+    margin: 10px 25px 10px 25px;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    height: auto;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+header li .btn-auth:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+header form button{
+    border: 1px solid white;
+    border-radius: .25rem;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+}
+
+header form button:hover{
+    color: black;
+    background-color: white;
+}
+
+header form .btn-search{
+    margin-left: 5px;
+}
+
+header form > ul {
+    width: 150px;
+}
+
+header .user {
+    margin: auto 10px;
+}
+#search_genres{
+    font-size: 16px;
+    color: black;
+}
+
+
+#search_genres li{
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    padding: 5px 15px;
+}
+
+#search_genres li:hover {
+    background-color: #ffda58;
+    color: black;
+}
+
+#profileModal .modal-dialog {
+
+    max-width: 700px;
+}
+
+#profileModal {
+    padding: 0;
+}
+
+#profileModal .modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#profileModal table td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#profileModal .row {
+    display: flex;
+    flex-direction: row;
+}
+
+#profileModal .row>* {
+    width: auto;
+}
+
+#profileModal .main_info {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#profileModal .main_info h5 {
+    margin-bottom: 1rem;
+}
+
+#profileModal .modal-header {
+    padding: 0 1rem;
+}
+
+#profileModal .modal-header button{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    height: 50px;
+}
+
+#profileModal .modal-header .active {
+    color: white;
+    background-color: gray;
+}
+
+#profileModal .modal-header button:hover:not(.active) {
+    background-color: silver;
+}
+
+
+#registerModal .modal-dialog {
+    max-width: 300px;
+}
+
+#registerModal .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registerModal .modal-footer {
+    justify-content: center;
+}
+
+
+#enterModal .modal-dialog {
+    max-width: 300px;
+}
+
+#enterModal .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#enterModal .modal-footer {
+    justify-content: center;
+}
+
+#registerModal input, #enterModal input {
+    text-align: center;
+}
+
+#registerModal label, #enterModal label {
+    margin: 10px 0 0 0;
+}
+
+#profileModal td > button {
+    border: none;
+    background-color: silver;
+}
+
+#profileModal td > button:hover {
+    background-color: orange;
+}
+
+#acceptModal .modal-dialog {
+    max-width: 300px;
+    margin: 5rem auto;
+}
+
+#acceptModal .modal-dialog .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#acceptModal .modal-dialog button {
+    margin: 5px;
+}
+
+#acceptModal .modal-dialog > * {
+    text-align: center;
+
+}
+
+.modal+.modal {
+    z-index: 1080;
+}
+
+.modal-backdrop+.modal-backdrop {
+    z-index: 1070;
+}
+
+#errors ul {
+    list-style: none;
+    padding: 0;
+}
+
+#errors ul li {
+    text-align: center;
+}
+
+#profile_block .options_block .row {
+    margin: 0 10px 5px 10px;
+}
+
+#profile_block .options_block .row input {
+    margin-right: 10px;
+}
+
+#profile_block .options_block .row p {
+    height: 24px;
+    width: 600px;
+    margin: 0;
+}

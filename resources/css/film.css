@@ -1,0 +1,313 @@
+.film_back {
+    background-color: white;
+    padding: 2vw;
+    margin: 0 15px;
+}
+
+.film_back .head_block * {
+    margin: 0;
+    display: block;
+    text-align: center;
+    font-size: 46px;
+}
+
+.film_back .description_block {
+    margin: 0;
+    display: block;
+    font-size: 24px;
+}
+
+.film_back .description p {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.rate_age_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.film_back .place_reserve_block {
+    margin: 1vw 0 0 0;
+    display: block;
+    font-size: 24px;
+}
+
+.film_media {
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    border-bottom: 10px solid black;
+}
+
+.film_media > div {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.film_media > .film_trailer {
+    width: 100%;
+    border: 10px solid black;
+    border-right: 0;
+}
+
+.film_media > .film_trailer > iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.film_media > .film_poster {
+    border: 10px solid black;
+    border-left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.film_media > .film_poster > img {
+    height: 100%;
+}
+
+.place_reserve_block .choice_block {
+    display: flex;
+    justify-content: left;
+}
+
+.place_reserve_block .choice_block .dropdown{
+    margin: 10px;
+}
+
+.places_block {
+    display: block;
+    width: 100%;
+}
+
+.places_block h1{
+    text-align: center;
+}
+
+.places_block .screen {
+    margin: 10px;
+    padding: 0;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.places_block .row {
+    display: flex;
+    justify-content: center;
+}
+
+.places_block .row button {
+    height: 35px;
+    width: 35px;
+    border: 1px white solid;
+    border-radius: 3px;
+    background-color: chartreuse;
+    padding: 0;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.places_block .row button:hover {
+    background-color: #db0101;
+}
+
+.places_block .row .selected {
+    background-color: #ffda58!important;
+}
+
+.places_block .row .occupied {
+    color: white;
+    background-color: black!important;
+}
+
+.price_buy_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.price_buy_block #price{
+    color: green;
+    font-size: 30px;
+}
+
+.price_buy_block #btn-buy{
+    background-color: green;
+    color: white;
+    min-width: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.price_buy_block #btn-buy:disabled, .price_buy_block #btn-buy[disabled]{
+    background-color: greenyellow;
+    color: white;
+    min-width: 40px;
+    border: none;
+    border-radius: 5px;
+ }
+
+.price_buy_block #btn-buy:hover {
+    background-color: darkgreen;
+}
+
+.price_buy_block #btn-buy[disabled]:hover {
+    background-color: greenyellow;
+}
+
+
+.row_count {
+    width: auto;
+    font-size: 18px;
+    height: 35px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.title_comments {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+}
+
+.comments_block .header {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.comments_block .header > span {
+    border-right: 1px solid white;
+    padding: 0 20px;
+}
+
+.comments_block .body {
+    margin: 5px;
+
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.add_comment {
+    padding: 10px 0;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.add_comment .header {
+    text-align: center;
+}
+
+.add_comment .body {
+    width:100%;
+    padding: 5px;
+    display: block;
+}
+
+.add_comment .body textarea {
+    width:100%;
+    min-height: 30px;
+    max-height: 100px;
+}
+
+.add_comment section {
+    font-size: 16px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.add_comment section input {
+    display: none;
+}
+
+.add_comment section label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 10px;
+    line-height: 18px;
+    user-select: none;
+}
+
+.add_comment section label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: black;
+}
+
+.add_comment section input:checked + label:before {
+    background-color: orange;
+}
+
+.add_comment label:hover:before {
+    background-color: #ed6858;
+    filter: brightness(120%);
+}
+
+
+.add_comment button {
+    border: none;
+    width: 100%;
+    font-weight: bold;
+}
+
+.add_comment button:hover {
+    background-color: #ffda58;
+}
+
+.add_comment button:checked {
+    background-color: red;
+}
+
+#reserveModal .modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#reserveModal .modal-body table td{
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#reserve_place .refresh_place {
+    margin: auto 10px;
+    height: 38px;
+    width: 38px;
+    background-image: url("../images/svg/sync.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: .25rem;
+}
+#reserve_place .refresh_place:hover {
+    background-color: #5c636a;
+    border-color: #5c636a;
+}
+
+#reserve_place .refresh_place:active {
+    background-color: #5c636a;
+    border-color: #565e64;
+    box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+
+}

@@ -1,0 +1,168 @@
+.head_header {
+    background:url(../images/back3.jpg) center;
+    background-attachment: fixed;
+    background-size: 30%;
+    height: 600px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    border-bottom: 80px solid black;
+}
+
+body {
+    padding: 0!important;
+}
+
+.head_header .head_logo {
+    margin: 0 auto;
+    max-height: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    background-color: white;
+    padding: 0;
+    max-width: 85%;
+}
+
+.backg {
+    background:url(../images/back2.png) center;
+    background-size: 100%;
+
+    max-width: 80%;
+    margin: 0 auto 3vw auto;
+    display: block;
+}
+
+.sect_special ul {
+    list-style-type: none;
+    max-width: 90%;
+    margin: 80px auto;
+}
+
+.sect_special ul li {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.sect_special ul .image {
+    background-color: black;
+    padding:0;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    border-radius:100%;
+    transition-duration: 0.7s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    display: block;
+}
+
+.sect_special li .image{
+    margin: 0 auto;
+}
+
+.sect_special li:nth-child(1) .image{
+    background-image:url(../images/ticket.png);
+    background-position: center;
+}
+
+.sect_special li .image:hover{
+    background-size: 8rem;
+    transition-duration:0.5s;
+}
+
+.sect_special li:nth-child(2) .image{
+     background-image:url(../images/afisha1.png);
+}
+
+
+.sect_special li:nth-child(3) .image{
+     background-image:url(../images/search1.png);
+}
+
+
+.sect_special li div .describe{
+    display: block;
+    padding:0 10px;
+    margin:5px 0;
+}
+
+.sect_special  h2{
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.sect_special p{
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.menu {
+    text-align: center;
+    font-size: 46px;
+}
+
+
+#carouselExampleCaptions{
+    height: auto;
+    width: 700px;
+}
+
+.carousel-item .d-block{
+    height: auto;
+    width: 600px;
+    overflow: hidden;
+    padding: 0 150px;
+    background-color: black;
+}
+
+.best_recipes h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.carousel{
+    padding:30px 0;
+    width:100%;
+    margin:0 auto;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
+
+.carousel-indicators{
+    margin:40px auto;
+}
+
+.carousel-item div{
+    text-shadow: 3px 3px 4px black;
+}
+
+.carousel-item img{
+    height: auto!important;
+    background-size: cover;
+    filter:brightness(60%);
+}
+
+.carousel-item div a{
+    color:white;
+}
+
+footer div{
+    background-color: black;
+}
+
+.modal-open {
+    overflow-y: auto !important;
+}
